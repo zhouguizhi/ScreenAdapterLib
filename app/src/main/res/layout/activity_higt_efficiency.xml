@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adapter.view.CustomAdapterRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <com.adapter.view.CustomAdapterRelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:custom_layout_width="1060"
+        app:custom_layout_height="192"
+        app:custom_layout_marginLeft = "10"
+        app:custom_layout_marginRight = "10"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:custom_layout_width="530"
+            app:custom_layout_height="192"
+            android:text="button1"
+            android:background="#ffff00"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:custom_layout_width="530"
+            app:custom_layout_height="192"
+            app:custom_layout_marginLeft = "540"
+            android:text="button2"
+            android:background="#66ff00"
+            />
+    </com.adapter.view.CustomAdapterRelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:custom_layout_width="1060"
+        app:custom_layout_height="192"
+        app:custom_layout_marginLeft = "10"
+        app:custom_layout_marginRight = "10"
+        app:custom_layout_marginTop="200"
+        android:text="textview"
+        android:background="#ff00ff"
+        android:gravity="center"
+        />
+</com.adapter.view.CustomAdapterRelativeLayout>

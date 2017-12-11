@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomRelativeLayout">
+        <attr name="custom_layout_width" format="integer"></attr>
+        <attr name="custom_layout_height" format="integer"></attr>
+        <attr name="custom_layout_marginLeft" format="integer"></attr>
+        <attr name="custom_layout_marginTop" format="integer"></attr>
+        <attr name="custom_layout_marginRight" format="integer"></attr>
+        <attr name="custom_layout_marginBottom" format="integer"></attr>
+        <attr name="custom_text_size" format="float"></attr>
+    </declare-styleable>
+</resources>
